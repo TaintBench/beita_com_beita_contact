@@ -12,7 +12,7 @@
 ## Activities:
 - When the malware executes, it disguises itself as a contact management tool.
 It then gathers information from the user's list of contacts.
-It saves the contacts information in a plain text file called contact_backup.txt. The file is stored in the root path of the device's SD card. Next, it uploads the file to a URL http://192.168.2.105:8080/upload_file_service/UploadServlet.
+It saves the contacts information in a plain text file called contact_backup.txt. The file is stored in the root path of the device's SD card. Next, it uploads the file to a URL http#://192.168.2.105:8080/upload_file_service/UploadServlet.
 # Detail Information:
 ## Activities: 3
 	.ContactEditor
