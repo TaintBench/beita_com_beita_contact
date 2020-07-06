@@ -117,7 +117,8 @@
         "threading": true
       },
       "ID": 1,
-      "description": "This malicious flow leaks contact data via email."
+      "description": "This malicious flow leaks contact data via email.",
+      "isNegative": false
     },
     {
       "source": {
@@ -205,7 +206,8 @@
         "partialFlow": true
       },
       "ID": 2,
-      "description": "This malicious partial flow leaks contact data into a file (that is later uploaded)."
+      "description": "This malicious partial flow leaks contact data into a file (that is later uploaded).",
+      "isNegative": false
     },
     {
       "source": {
@@ -257,7 +259,8 @@
         "pathConstraints": true
       },
       "ID": 3,
-      "description": "This malicious partial flow uploads the file containing contact data to a remote server via HTTP POST request."
+      "description": "This malicious partial flow uploads the file containing contact data to a remote server via HTTP POST request.",
+      "isNegative": false
     }
   ]
 }
